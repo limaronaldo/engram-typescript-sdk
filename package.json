@@ -1,15 +1,23 @@
 {
-  "name": "@engram/client",
+  "name": "engram-client",
   "version": "0.1.0",
   "description": "TypeScript client for Engram Cloud - AI memory infrastructure",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["engram", "ai", "memory", "mcp", "agents"],
+  "keywords": [
+    "engram",
+    "ai",
+    "memory",
+    "mcp",
+    "agents"
+  ],
   "author": "Ronaldo Lima",
   "license": "MIT",
   "repository": {
