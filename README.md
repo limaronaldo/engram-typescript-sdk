@@ -1,6 +1,6 @@
-# @engram/client
+# engram-client
 
-[![npm](https://img.shields.io/npm/v/@engram/client)](https://www.npmjs.com/package/@engram/client)
+[![npm](https://img.shields.io/npm/v/engram-client)](https://www.npmjs.com/package/engram-client)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -9,13 +9,13 @@ TypeScript client for [Engram Cloud](https://github.com/limaronaldo/engram-cloud
 ## Installation
 
 ```bash
-npm install @engram/client
+npm install engram-client
 ```
 
 ## Quick Start
 
 ```typescript
-import { EngramClient } from "@engram/client";
+import { EngramClient } from "engram-client";
 
 const client = new EngramClient({
   baseUrl: "https://engram-cloud-gateway.fly.dev",
@@ -86,7 +86,7 @@ interface EngramConfig {
 ## Error Handling
 
 ```typescript
-import { EngramError } from "@engram/client";
+import { EngramError } from "engram-client";
 
 try {
   await client.get(999);
